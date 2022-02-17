@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot (12).png)
+![](./images/Screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Oderindecaleb/fylo-landing-page](https://your-solution-url.com)
+- Live Site URL: [https://oderindecaleb.github.io/fylo-landing-page/](https://your-live-site-url.com)
 
 ## my-process
 
