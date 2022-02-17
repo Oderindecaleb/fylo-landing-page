@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1,
+button,
+nav {
+    font-family: "Raleway", sans-serif;
+}
+
+h1,
+p,
+strong {
+    color: hsl(243, 87%, 12%);
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+::placeholder {
+    color: hsl(0, 0%, 75%);
+}
+
+a {
+    text-decoration: none;
+}
+
+body section a:hover {
+    color: hsl(224, 93%, 58%);
+}
+
+button {
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: hsl(224, 95%, 77%);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 270px;
+    color: hsl(238, 22%, 44%);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 80px;
+}
+
+
+/* section 1 */
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.hero1 {
+    width: 700px;
+    margin-top: 90px;
+    font-size: 30px;
+}
+
+.hero1 p {
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.section1 img {
+    width: 600px;
+    height: 500px;
+}
+
+.hero1 input,
+button {
+    height: 40px;
+    margin-top: 25px;
+    border-radius: 3px;
+}
+
+.hero1 input {
+    width: 300px;
+    padding-left: 30px;
+    margin-right: 10px;
+    border: 1px solid hsl(243, 87%, 12%);
+}
+
+.hero1 button {
+    width: 200px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+/* section 1 */
+
+.bg-curve-desktop {
+    margin-left: -100px;
+    width: 1618px;
+    margin-top: 85px;
+}
+
+
+/* section 2 */
+
+.section2 {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(240, 75%, 98%);
+    height: 650px;
+}
+
+.hero2 {
+    width: 700px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.hero2 .article-content h1 {
+    width: 700px;
+    margin-top: 90px;
+    font-size: 40px;
+}
+
+.hero2 .article-content p {
+    margin-top: 15px;
+    width: 530px;
+}
+
+.hero2 .article-content .article-link {
+    margin-top: 15px;
+}
+
+.hero2 .article-content .article-link a {
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+}
+
+.hero2 .article-content .article-link hr {
+    width: 165px;
+    background-color: hsl(170, 45%, 43%);
+    border: 1px solid hsl(170, 45%, 43%);
+}
+
+.section2-illustration {
+    width: 500px;
+    height: 400px;
+    margin-top: 100px;
+    margin-right: 80px;
+}
+
+.hero2 p {
+    margin-top: 15px;
+}
+
+.testimonial {
+    margin-top: 50px;
+    background-color: white;
+    width: 350px;
+    height: 230px;
+    font-size: smaller;
+    align-items: center;
+    padding: 20px 35px;
+    line-height: 22px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 2px hsl(240, 35%, 92%);
+}
+
+.testimonial p {
+    margin-top: -0.1px;
+}
+
+.testimonial .article-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 160px;
+    font-size: smaller;
+    margin-top: 20px;
+}
+
+.testimonial .article-name img {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.testimonial .article-name .article-man {
+    margin-top: 10px;
+}
+
+.testimonial .article-name .article-man p {
+    margin-top: -5px;
+    font-size: smaller;
+}
+
+
+/* section 2 */
+
+
+/* section 3 */
+
+.section3 {
+    background-color: hsl(238, 22%, 44%);
+    height: 300px;
+}
+
+.hero3 {
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+    width: 1200px;
+    color: white;
+}
+
+.section3 .hero3 article {
+    width: 500px;
+}
+
+.section3 .hero3 article h2 {
+    margin-bottom: 15px;
+}
+
+.section3 .hero3 article p {
+    color: white;
+}
+
+.section3 .hero3 .hero3-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.section3 .hero3 .hero3-input input {
+    height: 50px;
+    width: 500px;
+    font-size: smaller;
+    border-radius: 5px;
+    border-style: none;
+    color: pink;
+    padding-left: 20px;
+}
+
+.section3 .hero3 .hero3-input button {
+    width: 200px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+}
+
+.section3 .hero3 .hero3-input button:hover {
+    background-color: hsl(224, 95%, 77%);
+}
+
+
+/* section 3 */
+
+
+/* section 4 */
+
+.section4 {
+    background-color: hsl(243, 87%, 12%);
+    height: 400px;
+    color: white;
+}
+
+.section4 .company-logo {
+    margin-bottom: 25px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.hero4 {
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section4 .hero4 .contact img {
+    height: 15px;
+    margin-right: 20px;
+}
+
+.section4 .hero4 .contact p,
+.info1 p,
+.info2 p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.section4 .hero4 .contact p:hover,
+.info1 p:hover,
+.info2 p:hover {
+    color: hsl(224, 93%, 58%);
+}
+
+.section4 .hero4 .contact a {
+    display: flex;
+    flex-direction: row;
+}
+
+.section4 .hero4 .social-media img {
+    height: 40px;
+}
+
+
+/* section 4 */
+
+
+/* footer  */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
